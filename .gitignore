@@ -1,0 +1,5 @@
+.env
+__pycache__/
+venv/
+
+#避免 key 外流
