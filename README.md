@@ -7,7 +7,7 @@
 
 ## #1 整體架構概念
 
-把它想成一個「健身房櫃檯 AI 助理」：
+想成一個「健身房櫃檯 AI 助理」：
 
 * **前台**：LINE 使用者
 * **大門**：LINE Webhook → Flask `/callback`
@@ -16,7 +16,7 @@
 * **大腦**：Gemini 文字模型 + Embedding 模型
 * **資料工程師工具**：`ingest_data.py`（建 RAG）、`test_rag_local.py`（測試 RAG）
 
-### 📌 整體流程圖
+### ▶ 整體流程圖
 
 ```
 LINE 使用者 → LINE 平台 Webhook → Flask /callback
