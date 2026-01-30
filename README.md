@@ -42,15 +42,13 @@ LINE 使用者 → LINE 平台 Webhook → Flask /callback
   * 把訊息交給 AI 核心邏輯
   * 用 `LineBotApi.reply_message()` 回傳內容
 
-**簡單說：**
-
-> *這一層就是把使用者訊息轉給 AI，再把結果送回 LINE。*
+> *就是把使用者訊息轉給 AI，再把結果送回 LINE。*
 
 ---
 
 ### ▶ 2. ask_gemini_sport_assistant：最核心的 AI 對話控制器
 
-它負責：
+負責：
 
 #### (1) 讀取使用者 profile
 
