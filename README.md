@@ -26,7 +26,7 @@ LINE 使用者 → LINE 平台 Webhook → Flask /callback
      → Gemini 模型生成回答
      → 回傳回答給 LINE 使用者
 ```
-
+![RAG+LLM對話機器人架構圖](RAG+LLM對話機器人架構.png)
 ---
 
 ## #2 app.py：後端主程式（整個系統的大腦中樞）
@@ -228,3 +228,5 @@ print(answer)
    * (e) 丟給 Gemini 模型產生回答
 5. Gemini 回覆：「我們週末 08:00–21:00 營業喔！」
 6. Flask 再把回答送回 LINE → 顯示在使用者手機上。
+
+![LINEBOT圖](ChatBot示意圖.png)
