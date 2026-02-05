@@ -199,7 +199,7 @@ results = collection.query(
 用途：
 
 * **不經 LINE**
-* 在你的電腦直接測試 RAG + Gemini 是否正常
+* 在電腦直接測試 RAG + Gemini 是否正常
 * 模擬使用者提問
   例如：「平日幾點開？」
 * 檢查回答是否包含正確資訊（例如 6:00、23:00）
@@ -217,7 +217,7 @@ print(answer)
 ## #6 完整對話流程
 
 1. 使用者在 **LINE** 問：「週末幾點開？」
-2. LINE 把這個訊息丟到你的 **Flask `/callback`**。
+2. LINE 把這個訊息丟到 **Flask `/callback`**。
 3. Flask 把文字丟給 `ask_gemini_sport_assistant()`。
 4. 這個函式：
 
