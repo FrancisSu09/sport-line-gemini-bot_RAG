@@ -219,7 +219,6 @@ print(answer)
 1. 使用者在 **LINE** 問：「週末幾點開？」
 2. LINE 把這個訊息丟到 **Flask `/callback`**。
 3. Flask 把文字丟給 `ask_gemini_sport_assistant()`。
-4. 這個函式：
 
    * (a) 讀取使用者 profile
    * (b) 使用 `query_db()` 去 ChromaDB 找「週末營業時間」那段文字
